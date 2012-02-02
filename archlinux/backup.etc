@@ -1,0 +1,18 @@
+/ <%=Rc.media%>/ywank.etc/
+
+[files]
+/etc
+
+[exclude]
+/etc/fstab
+/etc/mtab
+/etc/rc.conf
+/etc/X11/xorg.conf.d
+/etc/default/grub
+/etc/grub.d
+/etc/mkinitcpio.conf
+/etc/mkinitcpio.d
+/etc/modprobe.d
+
+
+

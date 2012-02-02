@@ -1,0 +1,10 @@
+/ <%=Rc.media%>/ywank.machine/
+
+[files]
+/boot/menu.lst
+/etc/fstab
+/etc/mkinitcpio.conf
+/etc/mkinitcpio.d
+/etc/rc.conf
+/etc/X11/xorg.conf.d
+

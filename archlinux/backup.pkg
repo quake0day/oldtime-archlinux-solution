@@ -1,0 +1,5 @@
+/ <%=Rc.media%>/ywank.pkg/
+
+[files]
+/home/packages
+/var/cache/pacman/pkg
