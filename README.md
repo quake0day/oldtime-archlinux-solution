@@ -5,9 +5,8 @@ oldtime-archlinux-solution, a ArchLinux backup & restore solution based on oldti
 |----------------|------------------------------------------------------       |
 | Author:	       | Guten                                                 |
 | License:       | MIT-LICENSE                                                |
-| Issue Tracker: | https://github.com/GutenYe/oldtime-archlinux-solution/issues |
 
-It's a personal solution, eveyone can write your own config file.  
+This solution is based on [oldtime](https://github.com/GutenYe/oldtime). And it's a personal solution, eveyone can write your own config file.  
 
 Getting Started
 ---------------
@@ -42,8 +41,6 @@ restore, in a fresh new archlinux system.
 
 	# in the second terminal
 	$ sudo oldtime restore archlinux file -d /backup/archlinux.oldtime/oldtime/oldtime
-
-for more information, please see https://github.com/GutenYe/oldtime
 
 Resources
 ---------
