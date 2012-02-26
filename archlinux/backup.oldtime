@@ -2,3 +2,5 @@
 
 [files]
 /oldtime
+/etc/pacman.conf
+/etc/pacman.d

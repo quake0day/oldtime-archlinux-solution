@@ -14,7 +14,7 @@ Getting Started
 prepare
 
 	# /etc/makepkg.conf
-		PKGDEST=/home/packages  # store all the packages installed from AUR.
+		PKGDEST=/home/pkg  # store all the packages installed from AUR.
 
 	# /oldtime/oldtimerc
 		media = "/backup"
@@ -23,24 +23,29 @@ install
 
 	$ wget https://github.com/GutenYe/oldtime-archlinux-solution/tarball/master
 	$ tar xvf master
-	$ sudo cp GutenYe-oldtime-archlinux-solution-xx/* /oldtime/oldtime
-	# modify the files to meet your self need.
+	# cp GutenYe-oldtime-archlinux-solution-xx/* /oldtime/oldtime
+	modify the files to meet your need.
 
 backup
 
 	# mount /dev/sdb1 /backup
-	$ sudo oldtime backup archlinux
+	# oldtime backup archlinux
 
 restore, in a fresh new archlinux system.
 
-	# install oldtime
-	$ mount /dev/sdb1 /backup
+	install oldtime
+	# mount /dev/sdb1 /backup
 
-	# in the first terminal
-	$ sudo oldtime restore archlinux system -d /backup/archlinux.oldtime/oldtime/oldtime
+	in the first terminal
+	# oldtime restore archlinux system -d /backup/archlinux.oldtime/oldtime/oldtime
+	uncomment custom source in /etc/pacman.conf
+	# pacman -S `cat pkg.lst`
+	# pacman -S `cat aur.lst`
+	# oldtime restore etc -d /backup/archliniux.oldtime/oldtime/oldtime
+	manual restore /backup/archlinux.machine_etc
 
-	# in the second terminal
-	$ sudo oldtime restore archlinux file -d /backup/archlinux.oldtime/oldtime/oldtime
+	in the second terminal
+	# oldtime restore archlinux root -d /backup/archlinux.oldtime/oldtime/oldtime
 
 Resources
 ---------

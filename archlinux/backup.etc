@@ -13,3 +13,5 @@
 /etc/mkinitcpio.conf
 /etc/mkinitcpio.d
 /etc/modprobe.d
+/etc/pacman.conf
+/etc/pacman.d
