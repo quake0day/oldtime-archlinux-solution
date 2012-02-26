@@ -39,8 +39,8 @@ restore, in a fresh new archlinux system.
 	in the first terminal
 	# oldtime restore archlinux system -d /backup/archlinux.oldtime/oldtime/oldtime
 	uncomment custom source in /etc/pacman.conf
-	# pacman -S `cat pkg.lst`
-	# pacman -S `cat aur.lst`
+	# pacman -S `cat pkg.lst` -f
+	# pacman -S `cat aur.lst` -f
 	# oldtime restore etc -d /backup/archliniux.oldtime/oldtime/oldtime
 	manual restore /backup/archlinux.machine_etc
 
